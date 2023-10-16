@@ -402,11 +402,9 @@ span img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
     .caixa div {
-        margin-right: 10px;
         width: 400px;
     }
 
@@ -1390,8 +1388,7 @@ span img {
     }
 
     .caixa div {
-        width: 50%;
-        margin-left: 24%;
+        width: 420px;
     }
 
     .caixa img {
@@ -1411,7 +1408,7 @@ span img {
     }
 }
 
-@media (min-height: 451px) and (max-height: 700px) {
+@media (min-height: 450px) and (max-height: 700px) {
     header {
         height: 200vh;
     }
@@ -1459,11 +1456,10 @@ span img {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
 
     .caixa div {
-        width: 400px;
+        width: 410px;
     }
 
     .caixa img {
