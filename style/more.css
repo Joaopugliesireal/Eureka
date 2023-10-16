@@ -463,6 +463,32 @@ p {
     }
 }
 
+@media (min-height: 200px) and (max-height: 300px){
+    .Leitura, .Evento {
+        height: 100vh;
+    }
+
+    h3 {
+        width: 200px;
+        font-size: 1.2rem;
+    }
+
+    .branco {
+        height: 50px;
+    }
+
+    p {
+        font-size: 1rem;
+        padding: 5px;
+    }
+
+    img {
+        width: 300px;
+        height: 200px;
+    }
+
+}
+
 
 @media (min-height: 300px) and (max-height: 450px){
 
@@ -486,7 +512,7 @@ p {
 
     img {
         width: 300px;
-        height: 190px;
+        height: 250px;
     }
     
 }
@@ -512,8 +538,8 @@ p {
     }
 
     img {
-        width: 300px;
-        height: 250px;
+        width: 350px;
+        height: 300px;
     }
     
 }
