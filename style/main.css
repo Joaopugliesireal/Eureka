@@ -1574,3 +1574,11 @@ span img {
     }
 
 }
+
+@media (min-height: 300px) and (max-height: 450px) {
+
+    .Welcome img {
+        width: 450px;
+        height: 400px;
+    }
+}
