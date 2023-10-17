@@ -177,7 +177,7 @@ span img {
 
 @media (min-width: 200px) and (max-width: 300px) {
     header {
-        height: 85vh;
+        height: 100vh;
     }
 
     .Eureka img {
@@ -226,7 +226,7 @@ span img {
 @media (min-width: 300px) and (max-width: 400px) {
 
     header {
-        height: 90vh;
+        height: 100vh;
     }
 
     .Eureka img {
@@ -260,7 +260,7 @@ span img {
 @media (min-width: 400px) and (max-width: 600px) {
 
     header {
-        height: 80vh;
+        height: 100vh;
     }
 
     .Eureka img {
