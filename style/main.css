@@ -185,6 +185,10 @@ span img {
         width: 200px;
     }
 
+    .Welcome img {
+        width: 100%;
+    }
+
     .Welcome p {
         padding: 10px;  
     }
@@ -1195,7 +1199,7 @@ span img {
         text-align: center;
         margin-right: 25%;
         margin-bottom: -20px;
-        margin-top: 150px;
+        margin-top: 250px;
     }
 
     .caixa {
@@ -1328,7 +1332,7 @@ span img {
         text-align: center;
         margin-right: 26%;
         margin-bottom: -20px;
-        margin-top: 150px;
+        margin-top: 250px;
     }
 
     .caixa {
@@ -1396,6 +1400,7 @@ span img {
     }
 
     .Welcome img {
+        width: 300px;
         height: 400px;
     }
 
@@ -1532,8 +1537,8 @@ span img {
 @media (min-height: 250px) and (max-width: 600px)  {
 
     .Eureka img {
-        width: 290px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 
     #seta {
@@ -1548,7 +1553,7 @@ span img {
     }
 
     .Welcome img {
-        width: 290px;
+        width: 100%;
     }
 
     .caixa  img {
