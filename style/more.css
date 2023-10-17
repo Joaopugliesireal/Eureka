@@ -54,7 +54,7 @@ h3 {
     border-radius: 20px;
     font-size: 2rem;
     user-select: none;
-    animation: appear 3s 1 ease-in-out;
+    animation: appear 1.5s 1 ease-in-out;
 }
 
 @keyframes appear {
@@ -73,7 +73,7 @@ p {
     border-radius: 10px;
     padding: 5px;
     color: #010F80;
-    animation: appear 8s 1 ease-in-out;
+    animation: appear 3s 1 ease-in-out;
 }
 
 @keyframes appear {
@@ -132,7 +132,7 @@ p {
     h3 {
         width: 250px;
         font-size: 1.5rem;
-        animation: appear 4s 1 ease-in-out;
+        animation: appear 2.5s 1 ease-in-out;
     }
 
     @keyframes appear {
@@ -149,7 +149,7 @@ p {
     p {
         width: 350px;
         font-size: 1rem;
-        animation: appear 5s 1 ease-in-out;
+        animation: appear 4s 1 ease-in-out;
     }
 
     @keyframes appear {
@@ -179,7 +179,7 @@ p {
     h3 {
         width: 300px;
         font-size: 2rem;
-        animation: appear 4s 1 ease-out;
+        animation: appear 2.5s 1 ease-out;
     }
 
     @keyframes appear {
@@ -196,7 +196,7 @@ p {
     p {
         width: 400px;
         font-size: 1.2rem;
-        animation: appear 5s 1 ease-in-out;
+        animation: appear 4s 1 ease-in-out;
     }
 
     @keyframes appear {
@@ -232,7 +232,7 @@ p {
     h3 {
         width: 300px;
         font-size: 1.8rem;
-        animation: appear 4s 1 ease-out;
+        animation: appear 2.5s 1 ease-out;
     }
 
     @keyframes appear {
@@ -255,7 +255,7 @@ p {
     p {
         width: 400px;
         font-size: 1.2rem;
-        animation: appear 5s 1 ease-in-out;
+        animation: appear 4s 1 ease-in-out;
         border-radius: 30px;
         padding: 15px;
     }
@@ -311,7 +311,7 @@ p {
     h3 {
         width: 350px;
         font-size: 2rem;
-        animation: appear 4s 1 ease-out;
+        animation: appear 1.5s 1 ease-out;
     }
 
     @keyframes appear {
@@ -334,7 +334,7 @@ p {
     p {
         width: 600px;
         font-size: 1.5rem;
-        animation: appear 5s 1 ease-in-out;
+        animation: appear 2s 1 ease-in-out;
         border-radius: 30px;
         padding: 10px;
     }

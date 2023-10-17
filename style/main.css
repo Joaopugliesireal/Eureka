@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/glacial-indifference-2');
+
 * {
     padding: 0;
     margin: 0;
@@ -7,6 +9,7 @@
 body {
     background-color: #010F80;
     scroll-behavior: smooth;
+    font-family: 'Glacial Indifference', sans-serif;
 }
 
 header {
@@ -29,7 +32,6 @@ main {
 .Eureka p {
     color: white;
     font-size: 2rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     user-select: none;
 }
@@ -61,7 +63,6 @@ h3 {
 
 .Welcome p {
     padding: 10px;
-    font-family: 'Times New Roman', Times, serif;
     color: #010F80;
 }
 
@@ -224,6 +225,14 @@ span img {
 
 @media (min-width: 300px) and (max-width: 400px) {
 
+    header {
+        height: 90vh;
+    }
+
+    .Eureka img {
+        height: 400px;
+    }
+
     .Welcome p {
         font-size: 18px;
         padding: 25px;
@@ -251,7 +260,7 @@ span img {
 @media (min-width: 400px) and (max-width: 600px) {
 
     header {
-        height: 100vh;
+        height: 80vh;
     }
 
     .Eureka img {
@@ -344,11 +353,13 @@ span img {
     }
 
     .caixa {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .caixa div {
-        margin-left: 25%;
         margin-right: 10px;
         width: 50%;
     }
@@ -402,6 +413,7 @@ span img {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .caixa div {
@@ -458,7 +470,9 @@ span img {
     }
 
     .caixa {
-        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
     }
 
     .caixa div {
@@ -1349,7 +1363,7 @@ span img {
 @media (min-height: 200px) and (max-height: 450px) {
 
     header {
-        height: 200vh;
+        height: 150vh;
     }
 
     .Eureka p {
@@ -1385,6 +1399,7 @@ span img {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .caixa div {
@@ -1410,7 +1425,7 @@ span img {
 
 @media (min-height: 450px) and (max-height: 700px) {
     header {
-        height: 200vh;
+        height: 130vh;
     }
 
     .Eureka p {
@@ -1456,6 +1471,7 @@ span img {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        align-items: center;
     }
 
     .caixa div {
@@ -1476,6 +1492,23 @@ span img {
 
     .Passage a {
         text-align: center;
+    }
+}
+
+@media (min-height: 700px) and (max-height: 1200px) {
+
+    .caixa img {
+        height: 300px;
+        width: 300px;
+    }
+
+    .caixa div {
+        width: 400px;
+    }
+
+    .caixa p {
+        margin-left: 15%;
+        width: 70%;
     }
 }
 
