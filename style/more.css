@@ -469,6 +469,7 @@ p {
         height: 56.5vh;
         padding: 20px;
         justify-content: space-around;
+        align-items: center;
     }
 
     .Evento {
@@ -477,6 +478,7 @@ p {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        align-items: center;
     }
 
     img {
@@ -541,6 +543,7 @@ p {
         height: 80.5vh;
         padding: 20px;
         justify-content: space-around;
+        align-items: center;
     }
 
     .Evento {
@@ -549,6 +552,7 @@ p {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        align-items: center;
     }
 
     .branco {
@@ -624,6 +628,7 @@ p {
         height: 80.5vh;
         padding: 20px;
         justify-content: space-around;
+        align-items: center;
     }
 
     .Evento {
@@ -632,6 +637,7 @@ p {
         display: flex;
         justify-content: space-around;
         flex-direction: row;
+        align-items: center;
     }
 
     img {
@@ -732,7 +738,7 @@ p {
 @media (min-height: 700px) and (max-height: 800px) {
 
     .Leitura, .Evento {
-        height: 120vh;
+        height: 100vh;
     }
 
     img {
