@@ -1054,6 +1054,7 @@ span img {
 }
 
 @media (min-width: 1500px) and (max-width: 1800px) {
+    
     .Eureka img {
         width: 32%;
         margin-top: -165px;
