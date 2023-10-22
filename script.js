@@ -1,1 +1,6 @@
-//<div class="Insta"><a href="https://www.instagram.com/eureka.unimaafya/?igshid=NjIwNzIyMDk2Mg%3D%3D">Instagram <i class="fa fa-instagram"></i></a></div>
+let seta = document.getElementById('seta')
+
+window.addEventListener('scroll', function(){
+    let value = window.scrollY;
+    seta.style.left = value * 0.25 + 'px';
+})

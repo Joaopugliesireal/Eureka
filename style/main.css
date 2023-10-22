@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -39,6 +40,19 @@ main {
 
 .Eureka {
     text-align: center;
+    background-image: url(../img/stars.png);
+    background-repeat: repeat;
+    animation: moving 10s linear infinite;
+}
+
+@keyframes moving {
+    from {
+        background-position: bottom;
+    }
+
+    to {
+        background-position: top;
+    }
 }
 
 .Eureka img {
@@ -302,7 +316,8 @@ span img {
     }
 
     .Eureka img {
-        height: 370px;
+        height: 300px;
+        width: 300px;
     }
 
     .Welcome p {
@@ -607,11 +622,6 @@ span img {
 
     .Welcome p {
         font-size: 1.2rem;
-    }
-
-    .plane img {
-        width: 12%;
-        height: 8vh;
     }
 
     #seta {
@@ -1084,7 +1094,7 @@ span img {
 
      h3 {
         text-align: left;
-        margin-left: 18%;
+        margin-left: 20%;
         padding-top: 50px;
         padding-bottom: -200px;
         font-size: 3.5rem;
@@ -1111,7 +1121,7 @@ span img {
         }
     
         25% {
-            transform: translateY(155px);
+            transform: translateY(335px);
         }
     
         50% {
